@@ -4,6 +4,7 @@
  */
 package problema01;
 import java.util.Scanner;
+import java.util.Locale;
 /**
  *
  * @author CDML
@@ -15,7 +16,9 @@ public class Problema01 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
         Scanner leer = new Scanner(System.in) ;
+        leer.useLocale(Locale.US);
         String nombre;
         int posicion;
         int edad;
